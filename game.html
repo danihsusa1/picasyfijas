@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game - Picas y Fijas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+</html>
+<body>
+    
+    <div id="game">
+      <h2>Guess my number!</h2>
+      <button class="secretNumber">? ? ? ?</button>
+      <p><span class="winnerMessage"></span></p>
+    </div>
+    <div>
+      <h2>Your guess</h2>
+      <input type="number" class="guess" />
+      <button class="btn check">Send!</button>
+    </div>
+    <div class="clues-records">
+        <div class="clues">
+            <h2 class="cluesTittle">Clues 🧩</h2>
+            <p>🤔 Picas: <span class="picas">0</span></p>
+            <p>🎯 Fijas: <span class="fijas">0</span></p>
+        </div>
+        <div class="records">
+            <h2 class="cluesTittle">Record 📝</h2>
+            <ul class="records-list">
+              
+            </ul>
+        </div>
+    </div>
+    <div class="endGame">
+      <p class="tries">Your attempts: <span class="attempts">0</span></p>
+      <!--<p class="best">Winner attempts: <span>0</span></p>-->
+      <button class="new-game">🔄 New game </button>
+    </div>
+    <script src="gameScript.js"></script>
+  </body>
+</html>

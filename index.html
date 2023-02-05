@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game - Picas y Fijas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Picas y fijas</h1>
+    </div>
+    <div class="intro">
+      <h2>First time?</h2>
+      <button class="show-guidelines">Guidelines</button>
+      <div class="guidelines hidden">
+        <button class="close-guidelines">X</button>
+        <h2>Guidelines</h2>
+        <ul>
+          <li>The goal is to guess the four non-repetitive digit number</li>
+          <li>On every attempt, you write your guess and hit "Send"</li>
+          <li>
+            You are going to get clues that will help you guessig the correct
+            number
+          </li>
+          <li>
+            Picas are the number of digits from your guess that do are on the
+            secret number, but on a different position
+          </li>
+          <li>
+            Fijas are the number of digits from your guess that are already in
+            the right position
+          </li>
+        </ul>
+      </div>
+      <div class="overlay hidden"></div>
+      <h2>Already know how to play?</h2>
+      <button class="play"><a href="game.html">Let's play!</a></button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
